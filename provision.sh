@@ -52,7 +52,7 @@ start_php() {
 }
 
 start_php_modules() {
- apt-get -y install php7.4-mysql php7.4-curl php7.4-json php7.4-cgi php7.4-xsl
+    apt-get -y install php7.4-mysql php7.4-curl php7.4-json php7.4-cgi php7.4-xsl
 }
 
 start_php_check() {
